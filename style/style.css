@@ -1,0 +1,170 @@
+
+html, body{
+background-color: #171717;
+margin: 0;
+padding: 0;
+font-family:Roboto, sans-serif
+}
+
+header{
+background-color: #101BEA;
+height: 100px;
+position: relative;
+font-family: "Zen Dots", sans-serif;
+}
+
+header h1{
+color:#B6DB00 ;
+position: absolute;
+top: 10px;
+left: 20px;
+}
+
+header a{
+color: #EAF6AD;
+cursor: pointer;
+text-decoration: none
+}
+
+header a:hover{
+color: #B6DB00 ;
+transform: scale(1.05);
+}
+
+.menu ul{
+list-style: none;
+}
+
+.menu li{
+display: inline;
+padding: 10px;
+}
+
+.menu{
+position: absolute;
+right: 50px;
+bottom: 25px;
+}
+
+.imagem{
+display: flex;
+justify-content:right;
+margin-inline: 575px;
+margin-top: 40px;
+border-radius:  6%;
+box-shadow: 0 0px 40px #101BEA ;
+}
+.conteudo{
+background-color: #222;
+padding: 0 25px 25px 25px;
+margin: 50px auto;
+width: 60%;
+border-radius: 12px;
+border: 1px solid #101BEA;
+}
+
+.conteudo h2{
+    color: #101BEA;
+    margin-bottom: 15px;
+text-align: center;
+}
+
+.conteudo h3, p{
+color: #ddd;
+text-align:justify;
+line-height: 1.5;
+}
+
+.titulo span{
+display: flex;
+justify-content: center;
+color: #EAF6AD;
+background-color: #101BEA;
+}
+
+
+.habilidades {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+padding: 10px;
+gap: 100px;
+}
+
+.habilidades img{
+    margin-top: 90px;
+border-radius:  15%;
+filter:drop-shadow( 0px 0px 50px #101BEA )
+}
+
+
+.Nicons{
+color: #EAF6AD;
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+gap: 240px;
+}
+
+footer{
+    color: #B6DB00;
+    margin-top: 150px;
+    display: flex;
+justify-content: center;
+
+}
+
+
+/*Pagina contatos*/
+
+.tabela{
+display: flex;
+justify-content: center;
+padding: 40px;
+margin-top: 40px;
+color: #101BEA;
+}
+
+.tabela th{
+background-color: #EAF6AD;
+padding: 10px;
+
+}
+
+.tabela td{
+color: #EAF6AD;
+padding: 5px;
+}
+
+
+
+
+.contato{
+display:flex;
+flex-direction: column;
+background-color: #222;
+padding: 20px 10px 20px 10px;
+margin:auto;
+width: 50%;
+border-radius: 10px;
+border: 1px solid #101BEA;
+color: #101BEA;
+
+}
+h2, h3{
+color: #101BEA;
+text-align: center;
+
+}
+
+button{
+background-color: #101BEA;
+border: 0px;
+color: #EAF6AD;
+cursor: pointer;
+transition: .2s;
+
+}
+
